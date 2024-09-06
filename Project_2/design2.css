@@ -1,0 +1,59 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    width: 600px;
+    height: 600px;
+    background-color: #fff;
+    text-align: center;
+}
+
+img{
+    width: 250px;
+    height: 170px;
+    background-position: right;
+}
+
+button.easy{
+    padding: 7px;
+    border: 0.5px solid lightgreen;
+    border-radius: 5px;
+    background-color: lightgreen;
+    margin: 5px;
+}
+button.medium{
+    padding: 7px;
+    border: 0.5px solid rgb(243, 208, 113);
+    border-radius: 5px;
+    background-color: rgb(243, 208, 113);
+    margin: 5px;
+}
+button.hard{
+    padding: 7px;
+    border: 0.5px solid red;
+    border-radius: 5px;
+    background-color: red;
+    margin: 5px;
+}
+
+#submit{
+    margin-top: 10px;
+    padding: 7px;
+    border: 0.5px solid lightskyblue;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    font-weight: 800;
+}
+#submit:hover{
+    color: #fff;
+}
+
+#playAgain{
+    display: none;
+}
